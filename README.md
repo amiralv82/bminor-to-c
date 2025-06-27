@@ -98,14 +98,17 @@ Project Structure
 
 ---
 
-Current Limitations / TODO
-	•	No full grammar verification—assumes well-formed Bminor input.
-	•	Arrays are treated as int only.
-	•	Functions returning non-primitive types are not yet supported.
-	•	No static or dynamic semantic checks (e.g., undefined variables) beyond a simple symbol table.
-	•	Power operator supports only integer exponentiation via (int)pow(a,b).
+Current Limitations / TODO:
 
-Want to help?  See Contributing below!
+•	No full grammar verification—assumes well-formed Bminor input.
+
+•	Arrays are treated as int only.
+
+•	Functions returning non-primitive types are not yet supported.
+
+•	No static or dynamic semantic checks (e.g., undefined variables) beyond a simple symbol table.
+
+•	Power operator supports only integer exponentiation via (int)pow(a,b).
 
 ---
 Author

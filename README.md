@@ -108,18 +108,7 @@ Current Limitations / TODO
 Want to help?  See Contributing below!
 
 ---
+Author
 
-🤝 Contributing
-	1.	Fork the project and create your branch: git checkout -b feature/my-awesome-feature.
-	2.	Commit your changes: git commit -m 'Add some feature'.
-	3.	Push to the branch: git push origin feature/my-awesome-feature.
-	4.	Open a pull request.
-
-Please follow conventional commits & keep functions under 80 LOC when possible.
-
----
-
-️💬 Feedback
-
-Questions, bug reports, or feature requests?
-Open an issue or ping me on  I’d love to hear from you!
+Amir-Abbas Alvand
+Feel free to connect on GitHub or reach out with feedback!

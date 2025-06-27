@@ -1,0 +1,59 @@
+// Testing variable declarations
+x: integer = 42;
+y: boolean = True;
+z: character = 'Z';
+s: string = "Line1\nLine2\tTabbed";
+arr: array[3] of integer = {10, 20, 30};
+
+// Testing function with parameters and return
+sum: function integer (a: integer, b: integer) = {
+    result: integer = a + b;
+    return result; //result is being returned
+};
+/* test for multi
+line comment */
+
+power: function integer (a: integer, b: integer) = {
+    result: integer = a ^ 2 + b ^ 3;
+    return result;
+};
+
+// Function using boolean and character logic
+match_char: function boolean (s: string, c: character) = {
+    i: integer = 0;
+    while (s[i] != '\0') {
+        if (s[i] == c) {
+            return True;
+        }
+        i = i + 1;
+    }
+    return False;
+};
+
+main: function integer () = {
+    print "Testing basic types:\n";
+    print "x =", x, "\n";
+    print "y =", y, "\n";
+    print "z =", z, "\n";
+    print "s =", s, "\n";
+
+    print "Array contents:\n";
+    i: integer = 0;
+    while (i < 3) {
+        print arr[i], " ";
+        i = i + 1;
+    };
+    print "\n";
+
+    a: integer = 5;
+    b: integer = 2;
+    c : integer= 1;
+print "Sum of ", a, " and ", b, " is ", sum(a, b), "\n";
+print a, "to the power of", b, "is ", power(a, b), "\n";
+
+    txt: string = "banana";
+    ch: character = 'a';
+print "Does \"", txt, "\" contain '", ch, "'? ", match_char(txt, ch), "\n";
+
+    return 0;
+};
